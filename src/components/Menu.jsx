@@ -8,12 +8,22 @@ const Menu = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex h-full w-full
+    
+    ">
       {/* Barra lateral */}
       <div
-        className={`fixed top-0 left-0 h-full bg-gray-100 shadow-lg transition-width duration-300 ${
-          isExpanded ? 'w-48' : 'w-16'
-        }`}
+        className={`w-full
+           ${isExpanded ? 'w-48' : 'w-16'
+          }
+
+        flex flex-col items-center justify-start pt-7
+        
+        `
+
+
+
+        }
       >
         {/* Botón del menú hamburguesa */}
         <button
