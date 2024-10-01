@@ -5,6 +5,7 @@ function Home() {
     return (
         <div className="flex">
             <div className="flex-1 mt-16 ml-16 md:ml-48 p-5">
+                
                 <div className='fixed top-0 left-0 w-full flex justify-around items-center border border-gray-500 h-14 bg-white'>
                     <h2>MODULO DE GESTION DE MEMORIA DESCRIPTIVA LST 4</h2>
                     <div>
@@ -38,7 +39,6 @@ function Home() {
                 </div>
                 <Menu />
             </div>
-
         </div>
     );
 }
